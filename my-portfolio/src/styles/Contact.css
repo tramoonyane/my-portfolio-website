@@ -1,1 +1,16 @@
+#contact {
+  background-color: #fff;
+  padding: 40px 0;
+}
 
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: #333;
+}
+
+/* Add styles for contact form or contact information */
