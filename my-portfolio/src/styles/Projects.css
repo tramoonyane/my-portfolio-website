@@ -1,16 +1,17 @@
 #projects {
   background-color: #fff;
-  padding: 40px 0;
+  padding: 40px 20px; /* Adjust padding for smaller screens */
 }
 
 .projects-container {
-  max-width: 1200px;
+  max-width: 100%; /* Ensure content stays within the viewport */
   margin: 0 auto;
   text-align: center;
 }
 
 .projects-container h2 {
   color: #333;
+  font-size: 24px; /* Adjust font size for smaller screens */
 }
 
 /* Add styles for project cards or tiles */
