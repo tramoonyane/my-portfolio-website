@@ -1,1 +1,16 @@
+#skills {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
 
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h2 {
+  color: #333;
+}
+
+/* Add styles for skills and experience content */
