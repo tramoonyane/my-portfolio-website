@@ -1,1 +1,16 @@
+#projects {
+  background-color: #fff;
+  padding: 40px 0;
+}
 
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-container h2 {
+  color: #333;
+}
+
+/* Add styles for project cards or tiles */
