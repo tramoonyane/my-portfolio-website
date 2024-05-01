@@ -3,9 +3,11 @@ import './styles/Projects.css';
 
 function Projects() {
   return (
-    <section id="projects" className="projects">
-      <h2>Projects</h2>
-      {/* Add your project showcase here */}
+    <section id="projects">
+      <div className="projects-container">
+        <h2>Projects</h2>
+        {/* Add project cards or tiles here */}
+      </div>
     </section>
   );
 }
