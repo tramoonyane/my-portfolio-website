@@ -25,13 +25,15 @@
 
 #projects-heading {
   writing-mode: vertical-rl; /* Set text direction to vertical, right to left */
-  transform: rotate(180deg); /* Rotate text by 180 degrees */
-  padding: 20px 0; /* Adjust padding as needed */
+  transform: rotate(180deg) translateY(50%); /* Rotate text by 180 degrees and move it down by 50% of its own height */
+  padding: 20px 10px; /* Adjust padding as needed */
   background-color: #333; /* Background color for the heading */
   color: #fff; /* Text color for the heading */
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 50px; /* Border radius to create a curved effect */
   font-size: 1.2em; /* Font size */
-  margin: 0 auto 20px; /* Center horizontally and add some space below */
   width: fit-content; /* Make the width fit the content */
   text-align: center; /* Center text horizontally */
+  position: absolute; /* Position the heading absolutely */
+  top: 50%; /* Align the heading to the middle vertically */
+  left: -50px; /* Adjust horizontal position as needed */
 }
