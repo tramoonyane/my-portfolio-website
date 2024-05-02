@@ -8,13 +8,13 @@
 
 @keyframes moveHeading {
   0% {
-    transform: translateY(0); /* Start position */
+    transform: translateX(0); /* Start position */
   }
   50% {
-    transform: translateY(-10px); /* Middle position */
+    transform: translateX(-10px); /* Middle position */
   }
   100% {
-    transform: translateY(0); /* End position */
+    transform: translateX(0); /* End position */
   }
 }
 
