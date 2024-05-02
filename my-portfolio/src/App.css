@@ -1,14 +1,66 @@
 /* App.css */
-#about, #projects, #skills, #contact {
-  padding: 50px;
-  text-align: center;
-  font-size: 1.2em;
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font family */
+  background-color: #fff; /* Set a default background color */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 0 20px; /* Add some padding to the sides */
+}
+
+/* Header styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar ul li a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+/* Section styles */
+section {
+  padding: 50px 0; /* Add padding to all sections */
 }
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
-  #about, #projects, #skills, #contact {
-    padding: 30px;
-    font-size: 1em;
+  .container {
+    padding: 0 10px; /* Reduce padding on smaller screens */
+  }
+
+  .navbar {
+    padding: 10px 0; /* Reduce padding in the header on smaller screens */
+  }
+
+  section {
+    padding: 30px 0; /* Reduce padding on all sections on smaller screens */
   }
 }
