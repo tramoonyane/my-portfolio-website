@@ -1,4 +1,5 @@
 import React from 'react';
+import myPhoto from '../images/Thetele.jpg';
 import '../styles/About.css';
 
 function About() {
