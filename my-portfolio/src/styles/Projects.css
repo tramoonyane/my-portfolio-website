@@ -22,3 +22,16 @@
   color: #666; /* Change color of project descriptions */
   font-size: 1.2em; /* Adjust font size of project descriptions */
 }
+
+#projects-heading {
+  writing-mode: vertical-rl; /* Set text direction to vertical, right to left */
+  transform: rotate(180deg); /* Rotate text by 180 degrees */
+  padding: 20px 0; /* Adjust padding as needed */
+  background-color: #333; /* Background color for the heading */
+  color: #fff; /* Text color for the heading */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.2em; /* Font size */
+  margin: 0 auto 20px; /* Center horizontally and add some space below */
+  width: fit-content; /* Make the width fit the content */
+  text-align: center; /* Center text horizontally */
+}
