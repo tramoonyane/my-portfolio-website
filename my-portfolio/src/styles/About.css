@@ -5,3 +5,11 @@
   text-align: center;
   font-size: 1.2em;
 }
+
+#about h2 {
+  transition: color 0.3s ease; /* Define transition effect for color change */
+}
+
+#about:hover h2 {
+  color: blue; /* Change color on hover */
+}
