@@ -23,6 +23,8 @@
 }
 
 #about img {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 200px; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Add some space above the image */
   border-radius: 50%; /* Apply rounded corners for a softer look */
 }
