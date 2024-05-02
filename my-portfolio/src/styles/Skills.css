@@ -1,17 +1,7 @@
+/* Skills.css */
 #skills {
-  background-color: #f4f4f4;
-  padding: 40px 20px; /* Adjust padding for smaller screens */
-}
-
-.skills-container {
-  max-width: 100%; /* Ensure content stays within the viewport */
-  margin: 0 auto;
+  padding: 50px;
+  background-color: #d0d0d0;
   text-align: center;
+  font-size: 1.2em;
 }
-
-.skills-container h2 {
-  color: #333;
-  font-size: 24px; /* Adjust font size for smaller screens */
-}
-
-/* Add styles for skills and experience content */
