@@ -4,7 +4,17 @@ import '../styles/Skills.css';
 function Skills() {
   return (
     <section id="skills">
-      {/* Your Skills content */}
+    <div className="container">
+    <h2>Skills</h2>
+    <ul>
+    <li>JavaScript</li>
+    <li>React</li>
+    <li>HTML5/CSS3</li>
+    <li>Node.js</li>
+    <li>Git</li>
+    {/* Add more skills as needed */}
+  </ul>
+    </div>
     </section>
   );
 }
