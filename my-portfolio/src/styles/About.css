@@ -6,10 +6,18 @@
   font-size: 1.2em;
 }
 
-#about h2 {
-  transition: color 0.3s ease; /* Define transition effect for color change */
+@keyframes moveHeading {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  50% {
+    transform: translateY(-10px); /* Middle position */
+  }
+  100% {
+    transform: translateY(0); /* End position */
+  }
 }
 
-#about:hover h2 {
-  color: blue; /* Change color on hover */
+#about h2 {
+  animation: moveHeading 1s infinite alternate; /* Apply animation */
 }
