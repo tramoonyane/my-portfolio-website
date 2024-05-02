@@ -6,15 +6,34 @@
   font-size: 1.2em;
 }
 
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-text {
+  font-size: 1.1em;
+  color: #333;
+}
+
 @keyframes moveHeading {
   0% {
     transform: translateX(0); /* Start position */
   }
   50% {
-    transform: translateX(-10px); /* Middle position */
+    transform: translateX(10px); /* Middle position - move to the right */
   }
   100% {
-    transform: translateX(0); /* End position */
+    transform: translateX(0); /* End position - back to original position */
   }
 }
 
