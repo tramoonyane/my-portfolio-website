@@ -23,17 +23,25 @@
   font-size: 1.2em; /* Adjust font size of project descriptions */
 }
 
-#projects-heading {
-  writing-mode: vertical-rl; /* Set text direction to vertical, right to left */
-  transform: rotate(180deg) translateY(50%); /* Rotate text by 180 degrees and move it down by 50% of its own height */
-  padding: 20px 10px; /* Adjust padding as needed */
-  background-color: #333; /* Background color for the heading */
-  color: #fff; /* Text color for the heading */
-  border-radius: 50px; /* Border radius to create a curved effect */
-  font-size: 1.2em; /* Font size */
-  width: fit-content; /* Make the width fit the content */
-  text-align: center; /* Center text horizontally */
-  position: absolute; /* Position the heading absolutely */
-  top: 50%; /* Align the heading to the middle vertically */
-  left: -50px; /* Adjust horizontal position as needed */
+.project h3 {
+  color: #333; /* Change color of project titles */
+  font-size: 1.5em; /* Increase font size of project titles */
+  animation: moveHeading 1s infinite alternate; /* Apply animation to the heading */
+}
+
+.project p {
+  color: #666; /* Change color of project descriptions */
+  font-size: 1.2em; /* Adjust font size of project descriptions */
+}
+
+@keyframes moveHeading {
+  0% {
+    transform: translateY(0); /* Start position */
+  }
+  50% {
+    transform: translateY(-10px); /* Middle position */
+  }
+  100% {
+    transform: translateY(0); /* End position */
+  }
 }
