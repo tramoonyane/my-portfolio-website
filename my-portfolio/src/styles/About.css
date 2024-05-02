@@ -21,3 +21,8 @@
 #about h2 {
   animation: moveHeading 1s infinite alternate; /* Apply animation */
 }
+
+#about img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  border-radius: 50%; /* Apply rounded corners for a softer look */
+}
