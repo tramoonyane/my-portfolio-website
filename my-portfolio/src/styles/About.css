@@ -1,21 +1,7 @@
+/* About.css */
 #about {
-  background-color: #f4f4f4;
-  padding: 40px 20px; /* Adjust padding for smaller screens */
-}
-
-.about-container {
-  max-width: 100%; /* Ensure content stays within the viewport */
-  margin: 0 auto;
+  padding: 50px;
+  background-color: #f0f0f0;
   text-align: center;
-}
-
-.about-container h2 {
-  color: #333;
-  font-size: 24px; /* Adjust font size for smaller screens */
-}
-
-.about-container p {
-  color: #666;
-  font-size: 16px; /* Adjust font size for smaller screens */
-  line-height: 1.6;
+  font-size: 1.2em;
 }
