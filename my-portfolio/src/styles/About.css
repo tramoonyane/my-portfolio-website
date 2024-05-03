@@ -38,21 +38,14 @@
 
 /* Animation for About */
 @keyframes moveHeadingAbout {
-  0% {
+  from {
     transform: translateX(-100%);
   }
-  100% {
+  to {
     transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
   }
 }
 
 #about h2 {
   animation: moveHeadingAbout 10s linear infinite; /* Apply animation */
-}
-
-/* Override conflicting styles from App.css */
-@media screen and (min-width: 1400px) {
-  .about-container {
-    max-width: 1200px;
-  }
 }
