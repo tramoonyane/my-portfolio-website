@@ -39,8 +39,8 @@
   max-width: 100%;
 }
 
-/* Animation */
-@keyframes moveHeading {
+/* Animation for Contact */
+@keyframes moveHeadingContact {
   0% {
     transform: translateX(-100%); /* Start position - off the left side of the page */
   }
@@ -50,5 +50,5 @@
 }
 
 #contact h2 {
-  animation: moveHeading 10s linear infinite; /* Apply animation */
+  animation: moveHeadingContact 10s linear infinite; /* Apply animation */
 }
