@@ -52,7 +52,7 @@ section {
 
 /* Apply animation to all h2 elements within the specified sections */
 #about h2, #contact h2, #projects h2, #skills h2 {
-  animation: moveHeading 15s ease-in-out infinite;
+  animation: moveHeading 30s ease-in-out infinite;
 }
 
 /* Adjust animation duration and timing function */
