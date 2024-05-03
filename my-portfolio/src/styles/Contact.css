@@ -38,3 +38,17 @@
   overflow-wrap: break-word;
   max-width: 100%;
 }
+
+/* Transformation */
+#contact h2 {
+  animation: rotateHeading 2s infinite linear; /* Apply animation */
+}
+
+@keyframes rotateHeading {
+  0% {
+    transform: rotate(0deg); /* Start position - no rotation */
+  }
+  100% {
+    transform: rotate(5deg); /* End position - rotate 5 degrees clockwise */
+  }
+}
