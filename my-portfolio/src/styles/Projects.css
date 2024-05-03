@@ -22,7 +22,7 @@
 .project h3 {
   color: #333; /* Change color of project titles */
   font-size: 1.5em; /* Increase font size of project titles */
-  animation: moveHeading 1s infinite alternate; /* Apply animation to the heading */
+  animation: moveHeadingProjects 10s linear infinite; /* Apply animation to the heading */
 }
 
 /* Animation for Projects */
@@ -31,6 +31,6 @@
     transform: translateX(-100%);
   }
   to {
-    transform: translateX(50%); /* Adjust translation to keep the heading within the viewport */transform: translateX(calc(100% + 100vw));
+    transform: translateX(0); /* Adjust translation to keep the heading within the viewport */
   }
 }
