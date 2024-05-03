@@ -7,10 +7,10 @@ function Contact() {
         <h2>Contact Me</h2>
         <p>Feel free to reach out to me via email or connect with me on social media.</p>
         <ul style={{ listStyle: 'none', padding: '0' }}>
-          <li style={{ marginBottom: '10px' }}>Email: theteleramoonyane5@gmail.com</li>
+          <li style={{ marginBottom: '10px' }}>Email: <a href="mailto:theteleramoonyane5@gmail.com" style={{ color: '#007bff', textDecoration: 'none' }}>theteleramoonyane5@gmail.com</a></li>
           <li style={{ marginBottom: '10px' }}>
             LinkedIn: 
-            <a href="https://www.linkedin.com/" style={{ color: '#007bff', textDecoration: 'none', padding: '5px 10px', display: 'inline-block', maxWidth: '90%', overflowWrap: 'break-word', marginBottom: '5px' }}>
+            <a href="https://www.linkedin.com/" style={{ color: '#007bff', textDecoration: 'none', padding: '5px 10px', display: 'inline-block', maxWidth: '100%', overflowWrap: 'break-word', marginBottom: '5px' }}>
               https://www.linkedin.com/in/thetele-ramoonyane-319488120/?originalSubdomain=ls
             </a>
           </li>
