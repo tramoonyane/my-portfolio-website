@@ -41,14 +41,14 @@
 
 /* Animation for Contact */
 @keyframes moveHeadingContact {
-  0% {
-    transform: translateX(-100%); /* Start position - off the left side of the page */
+  from {
+    transform: translateX(-100%);
   }
-  100% {
-    transform: translateX(200%); /* End position - off the right side of the page */
+  to {
+    transform: translateX(100%);
   }
 }
 
 #contact h2 {
-  animation: moveHeadingContact 10s linear infinite; /* Apply animation */
+  animation: moveHeadingContact 10s linear infinite alternate; /* Apply animation */
 }
