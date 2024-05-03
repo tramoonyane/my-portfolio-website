@@ -34,14 +34,11 @@
   font-size: 1.2em; /* Adjust font size of project descriptions */
 }
 
-@keyframes moveHeading {
+@keyframes moveHeadingProjects {
   0% {
-    transform: translateY(0); /* Start position */
-  }
-  50% {
-    transform: translateY(-10px); /* Middle position */
+    transform: translateX(-100%); /* Start position - off the left side of the page */
   }
   100% {
-    transform: translateY(0); /* End position */
+    transform: translateX(200%); /* End position - off the right side of the page */
   }
 }
