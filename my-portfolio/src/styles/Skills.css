@@ -40,7 +40,3 @@
     transform: translateX(100%); /* Adjust to move to the right */
   }
 }
-
-#skills h2 {
-  animation: moveHeadingSkills 10s linear infinite; /* Apply animation to the h2 heading */
-}
