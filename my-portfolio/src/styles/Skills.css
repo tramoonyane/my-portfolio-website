@@ -31,12 +31,11 @@
   transform: scale(1.05); /* Scale up by 5% when hovered */
 }
 
-/* Animation for Skills */
-@keyframes moveHeadingSkills {
+@keyframes moveHeading {
   from {
     transform: translateX(-100%);
   }
   to {
-    transform: translateX(100%); /* Adjust to move to the right */
+    transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
   }
 }
