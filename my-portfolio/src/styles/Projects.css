@@ -24,12 +24,3 @@
   font-size: 1.5em; /* Increase font size of project titles */
 }
 
-/* Animation for Projects */
-@keyframes moveHeadingProjects {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(50%);
-  }
-}
