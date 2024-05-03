@@ -4,6 +4,7 @@
   background-color: #f0f0f0;
   text-align: center;
   font-size: 1.2em;
+  overflow: hidden; /* Add overflow: hidden to prevent content from overflowing */
 }
 
 .about-container {
