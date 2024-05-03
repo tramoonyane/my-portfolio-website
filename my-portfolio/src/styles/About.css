@@ -36,13 +36,3 @@
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
 }
-
-/* Animation for About */
-@keyframes moveHeadingAbout {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
-  }
-}
