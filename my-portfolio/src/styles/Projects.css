@@ -21,14 +21,18 @@
 .project h3 {
   color: #333; /* Change color of project titles */
   font-size: 1.5em; /* Increase font size of project titles */
-  animation: moveHeadingProjects 1s infinite alternate; /* Apply animation to the heading */
 }
 
+/* Animation for Projects */
 @keyframes moveHeadingProjects {
-  0% {
-    transform: translateX(-100%); /* Start position - off the left side of the page */
+  from {
+    transform: translateX(-100%);
   }
-  100% {
-    transform: translateX(200%); /* End position - off the right side of the page */
+  to {
+    transform: translateX(calc(100% + 100vw));
   }
+}
+
+#projects h2 {
+  animation: moveHeadingProjects 10s linear infinite; /* Apply animation to the h2 heading */
 }
