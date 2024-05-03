@@ -18,6 +18,8 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container */
 }
 
 .contact-info p {
@@ -26,6 +28,7 @@
 
 .contact-info a {
   color: #007bff; /* Change link color */
+  word-break: break-all; /* Allow long URLs to break */
 }
 
 @keyframes moveHeading {
