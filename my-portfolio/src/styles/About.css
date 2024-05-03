@@ -48,3 +48,10 @@
 #about h2 {
   animation: moveHeadingAbout 10s linear infinite alternate; /* Apply animation */
 }
+
+/* Override conflicting styles from App.css */
+@media screen and (min-width: 1400px) {
+  .about-container {
+    max-width: 1200px;
+  }
+}
