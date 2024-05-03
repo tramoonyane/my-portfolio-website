@@ -13,11 +13,6 @@
   padding: 20px; /* Add padding inside projects */
 }
 
-.project h3 {
-  color: #333; /* Change color of project titles */
-  font-size: 1.5em; /* Increase font size of project titles */
-}
-
 .project p {
   color: #666; /* Change color of project descriptions */
   font-size: 1.2em; /* Adjust font size of project descriptions */
@@ -27,11 +22,6 @@
   color: #333; /* Change color of project titles */
   font-size: 1.5em; /* Increase font size of project titles */
   animation: moveHeading 1s infinite alternate; /* Apply animation to the heading */
-}
-
-.project p {
-  color: #666; /* Change color of project descriptions */
-  font-size: 1.2em; /* Adjust font size of project descriptions */
 }
 
 @keyframes moveHeadingProjects {
