@@ -50,21 +50,6 @@ section {
   padding: 50px 0; /* Add padding to all sections */
 }
 
-/* Media query for responsiveness */
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 0 10px; /* Reduce padding on smaller screens */
-  }
-
-  .navbar {
-    padding: 10px 0; /* Reduce padding in the header on smaller screens */
-  }
-
-  section {
-    padding: 30px 0; /* Reduce padding on all sections on smaller screens */
-  }
-}
-
 /* Apply animation to all h2 elements within the specified sections */
 #about h2, #contact h2, #projects h2, #skills h2 {
   animation: moveHeading 10s linear infinite;
