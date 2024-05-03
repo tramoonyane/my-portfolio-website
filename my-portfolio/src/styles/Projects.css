@@ -19,10 +19,10 @@
   font-size: 1.2em; /* Adjust font size of project descriptions */
 }
 
-.project h3 {
+.project h3:not(.no-animation) {
   color: #333; /* Change color of project titles */
   font-size: 1.5em; /* Increase font size of project titles */
-  animation: moveHeadingProjects 10s linear infinite; /* Apply animation to the heading */
+  animation: moveHeadingProjects 1s infinite alternate; /* Apply animation to the heading */
 }
 
 /* Animation for Projects */
@@ -31,6 +31,6 @@
     transform: translateX(-100%);
   }
   to {
-    transform: translateX(0); /* Adjust translation to keep the heading within the viewport */
+    transform: translateX(50%);
   }
 }
