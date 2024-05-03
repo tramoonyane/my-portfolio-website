@@ -35,18 +35,16 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow to the image */
 }
 
-@keyframes moveHeading {
-  0% {
-    transform: translateY(0);
+/* Animation for About */
+@keyframes moveHeadingAbout {
+  from {
+    transform: translateX(-100%);
   }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
+  to {
+    transform: translateX(100%);
   }
 }
 
 #about h2 {
-  animation: moveHeading 1s infinite alternate;
+  animation: moveHeadingAbout 10s linear infinite alternate; /* Apply animation */
 }
