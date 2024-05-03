@@ -39,16 +39,19 @@
   max-width: 100%;
 }
 
-/* Transformation */
-#contact h2 {
-  animation: rotateHeading 2s infinite linear; /* Apply animation */
-}
-
-@keyframes rotateHeading {
+/* Animation */
+@keyframes moveHeading {
   0% {
-    transform: rotate(0deg); /* Start position - no rotation */
+    transform: translateX(0); /* Start position */
+  }
+  50% {
+    transform: translateX(10px); /* Middle position - move to the right */
   }
   100% {
-    transform: rotate(5deg); /* End position - rotate 5 degrees clockwise */
+    transform: translateX(0); /* End position - back to original position */
   }
+}
+
+#contact h2 {
+  animation: moveHeading 1s infinite alternate; /* Apply animation */
 }
