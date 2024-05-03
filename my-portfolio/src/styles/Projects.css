@@ -19,10 +19,9 @@
   font-size: 1.2em; /* Adjust font size of project descriptions */
 }
 
-.project h3:not(.no-animation) {
+.project h3 {
   color: #333; /* Change color of project titles */
   font-size: 1.5em; /* Increase font size of project titles */
-  animation: moveHeadingProjects 1s infinite alternate; /* Apply animation to the heading */
 }
 
 /* Animation for Projects */
