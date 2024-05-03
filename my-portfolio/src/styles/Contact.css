@@ -18,6 +18,7 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 40px); /* Set width to 100% minus padding */
   max-width: 90vw; /* Adjust the maximum width as needed */
   margin: 0 auto; /* Center the container */
   word-wrap: break-word; /* Force long words to wrap */
@@ -46,22 +47,6 @@
   color: #0056b3; /* Change color for visited links */
 }
 
-@keyframes moveHeading {
-  0% {
-    transform: translateX(0); /* Start position */
-  }
-  50% {
-    transform: translateX(10px); /* Middle position - move to the right */
-  }
-  100% {
-    transform: translateX(0); /* End position - back to original position */
-  }
-}
-
-#contact h2 {
-  animation: moveHeading 1s infinite alternate; /* Apply animation */
-}
-/* Styling for the list items */
 .contact-info ul {
   list-style: none;
   padding: 0;
