@@ -6,10 +6,9 @@
   font-size: 1.2em;
 }
 
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  max-width: 800px; /* Adjusted max-width for better readability on smaller screens */
+  margin: 0 auto; /* Center the content horizontally */
 }
 
 .contact-info {
@@ -18,33 +17,30 @@
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 90%; /* Set width to 90% of the viewport width */
-  max-width: 600px; /* Maximum width for larger screens */
-  margin: 0 auto; /* Center the container */
   word-wrap: break-word; /* Force long words to wrap */
 }
 
 .contact-info p {
-  margin-bottom: 10px; /* Reduce margin for smaller screens */
-  font-size: 1em; /* Adjust font size as needed */
+  margin-bottom: 10px;
+  font-size: 1em;
 }
 
 .contact-info a {
-  color: #007bff; /* Change link color */
-  text-decoration: none; /* Remove underline */
-  padding: 5px 10px; /* Add padding */
-  margin-right: 10px; /* Add margin between links */
-  display: inline-block; /* Ensure links are displayed inline */
-  max-width: 100%; /* Ensure links don't exceed container width */
+  color: #007bff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block; /* Change display to block for better wrapping */
+  max-width: 90%; /* Adjusted max-width for better wrapping on smaller screens */
   overflow-wrap: break-word; /* Ensure long links wrap */
+  margin: 0 auto; /* Center the links */
 }
 
 .contact-info a:hover {
-  color: #0056b3; /* Change color on hover */
+  color: #0056b3;
 }
 
 .contact-info a:visited {
-  color: #0056b3; /* Change color for visited links */
+  color: #0056b3;
 }
 
 .contact-info ul {
@@ -57,8 +53,8 @@
 }
 
 .contact-info li:before {
-  content: "\2022"; /* Bullet point */
-  color: #007bff; /* Bullet color */
+  content: "\2022";
+  color: #007bff;
   font-size: 1.2em;
   display: inline-block;
   width: 1em;
@@ -68,11 +64,10 @@
 /* Additional styles for mobile devices */
 @media (max-width: 768px) {
   .contact-info {
-    width: 90%; /* Adjust width for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
+    padding: 10px;
   }
 
   .contact-info p {
-    font-size: 0.9em; /* Adjust font size for smaller screens */
+    font-size: 0.9em;
   }
 }
