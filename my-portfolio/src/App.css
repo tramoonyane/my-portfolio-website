@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto; /* Center the content horizontally */
   padding: 0 20px; /* Add some padding to the sides */
 }
