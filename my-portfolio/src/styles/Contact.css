@@ -45,10 +45,10 @@
     transform: translateX(-100%);
   }
   to {
-    transform: translateX(100%);
+    transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
   }
 }
 
 #contact h2 {
-  animation: moveHeadingContact 10s linear infinite alternate; /* Apply animation */
+  animation: moveHeadingContact 10s linear infinite; /* Apply animation */
 }
