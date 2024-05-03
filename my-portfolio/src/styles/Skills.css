@@ -30,18 +30,16 @@
   transform: scale(1.05); /* Scale up by 5% when hovered */
 }
 
-@keyframes moveHeading {
-  0% {
-    transform: translateX(0); /* Start position */
+/* Animation for Skills */
+@keyframes moveHeadingSkills {
+  from {
+    transform: translateX(-100%);
   }
-  50% {
-    transform: translateX(10px); /* Middle position - move to the right */
-  }
-  100% {
-    transform: translateX(0); /* End position - back to original position */
+  to {
+    transform: translateX(calc(100% + 100vw));
   }
 }
 
 #skills h2 {
-  animation: moveHeading 1s infinite alternate; /* Apply animation */
+  animation: moveHeadingSkills 10s linear infinite; /* Apply animation to the h2 heading */
 }
