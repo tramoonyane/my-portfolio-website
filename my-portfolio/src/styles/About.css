@@ -46,7 +46,3 @@
     transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
   }
 }
-
-#about h2 {
-  animation: moveHeadingAbout 10s linear infinite; /* Apply animation */
-}
