@@ -7,7 +7,7 @@ function Projects() {
       <div className="container">
         <h2>Projects</h2>
         <div className="project">
-          <h3>holbertonschool-system_engineering-devops</h3>
+          <h3>holbertonschool system engineering devops</h3>
           <p>Web infrastructure project including various DevOps tasks.</p>
           <a href="https://github.com/tramoonyane/holbertonschool-system_engineering-devops">GitHub Link</a>
         </div>
