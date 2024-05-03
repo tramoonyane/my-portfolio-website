@@ -10,10 +10,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 600px; /* Ensure container width */
+  margin: 0 auto; /* Center container */
 }
 
 .about-info {
-  max-width: 600px;
   margin-top: 30px;
 }
 
@@ -41,7 +42,7 @@
     transform: translateX(-100%);
   }
   100% {
-    transform: translateX(200%);
+    transform: translateX(calc(100% + 100vw)); /* Ensure animation covers the width of the viewport */
   }
 }
 
