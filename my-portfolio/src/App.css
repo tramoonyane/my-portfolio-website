@@ -64,3 +64,8 @@ section {
     padding: 30px 0; /* Reduce padding on all sections on smaller screens */
   }
 }
+
+/* Apply animation to all h2 elements within the specified sections */
+#about h2, #contact h2, #projects h2, #skills h2 {
+  animation: moveHeading 10s linear infinite;
+}
