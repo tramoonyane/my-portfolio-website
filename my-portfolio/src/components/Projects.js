@@ -12,12 +12,12 @@ function Projects() {
           <a href="https://github.com/tramoonyane/holbertonschool-system_engineering-devops">GitHub Link</a>
         </div>
         <div className="project">
-          <h3>holbertonschool-AirBnB_clone</h3>
+          <h3>holbertonschool AirBnB clone</h3>
           <p>Implementation of a simple clone of the Airbnb platform.</p>
           <a href="https://github.com/tramoonyane/holbertonschool-AirBnB_clone">GitHub Link</a>
         </div>
         <div className="project">
-          <h3>holbertonschool-AirBnB_clone_v2</h3>
+          <h3>holbertonschool AirBnB clone_v2</h3>
           <p>Enhanced version of the Airbnb clone project with additional features.</p>
           <a href="https://github.com/tramoonyane/holbertonschool-AirBnB_clone_v2">GitHub Link</a>
         </div>
