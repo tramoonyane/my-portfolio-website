@@ -68,7 +68,8 @@
 /* Additional styles for mobile devices */
 @media (max-width: 768px) {
   .contact-info {
-    padding: 10px; /* Reduce padding for smaller screens */
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
   }
 
   .contact-info p {
