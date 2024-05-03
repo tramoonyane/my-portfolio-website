@@ -15,6 +15,10 @@ function Skills() {
           <li>NoSQL</li> {/* New skill: NoSQL */}
           <li>Advanced SQL</li> {/* New skill: Advanced SQL */}
           <li>Introduction to MySQL</li> {/* New skill: Introduction to MySQL */}
+          <li>Python</li> {/* New skill: Python */}
+          <li>Web Flask</li> {/* New skill: Web Flask */}
+          <li>Working with APIs</li> {/* New skill: Working with APIs */}
+          <li>C</li> {/* New skill: C */}
           {/* Add more skills as needed */}
         </ul>
       </div>
