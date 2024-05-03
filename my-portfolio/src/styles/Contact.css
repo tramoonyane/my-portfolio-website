@@ -50,5 +50,5 @@
 }
 
 #contact h2 {
-  animation: moveHeading 5s infinite alternate; /* Apply animation */
+  animation: moveHeading 5s infinite linear; /* Apply animation */
 }
