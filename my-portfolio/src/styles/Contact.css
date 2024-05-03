@@ -30,7 +30,17 @@
 
 .contact-info a {
   color: #007bff; /* Change link color */
-  word-break: break-all; /* Allow long URLs to break */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add padding */
+  margin-right: 10px; /* Add margin between links */
+}
+
+.contact-info a:hover {
+  color: #0056b3; /* Change color on hover */
+}
+
+.contact-info a:visited {
+  color: #0056b3; /* Change color for visited links */
 }
 
 @keyframes moveHeading {
